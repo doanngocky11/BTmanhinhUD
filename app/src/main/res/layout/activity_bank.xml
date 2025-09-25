@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:background="@color/bgLight"
+    android:padding="16dp"
+    tools:context=".PayNowActivity">
+
+    <!-- Tiêu đề -->
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pay Now"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@color/textPrimary"
+        android:layout_marginTop="16dp"/>
+
+    <!-- Hình minh hoạ -->
+    <ImageView
+        android:id="@+id/imgBankLogo"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="16dp"
+        android:src="@drawable/ic_launcher_foreground"
+        android:contentDescription="Bank Logo"
+        android:background="@drawable/bg_placeholder"/>
+
+    <!-- Thông tin thanh toán -->
+    <TextView
+        android:id="@+id/tvAmount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="To Pay: $140"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="@color/primaryDarkColor"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:id="@+id/tvBankName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bank: Old Bank"
+        android:textSize="16sp"
+        android:textColor="@color/textSecondary"
+        android:layout_marginTop="8dp"/>
+
+    <!-- Nút thanh toán -->
+    <Button
+        android:id="@+id/btnPaySecurely"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pay Securely"
+        android:textSize="16sp"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/primaryColor"
+        android:layout_marginTop="20dp"
+        android:padding="10dp"
+        android:elevation="4dp"/>
+
+    <!-- Nút đổi phương thức thanh toán -->
+    <Button
+        android:id="@+id/btnChangeMethod"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Change payment method"
+        android:textSize="16sp"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/accentColor"
+        android:layout_marginTop="12dp"
+        android:padding="10dp"
+        android:elevation="4dp"/>
+
+    <!-- Menu điều hướng dưới cùng -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="32dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Home"
+            android:textSize="14sp"
+            android:textColor="@color/textPrimary"
+            android:layout_margin="8dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Schedule"
+            android:textSize="14sp"
+            android:textColor="@color/textPrimary"
+            android:layout_margin="8dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pay"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:textColor="@color/primaryDarkColor"
+            android:layout_margin="8dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Profile"
+            android:textSize="14sp"
+            android:textColor="@color/textPrimary"
+            android:layout_margin="8dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Settings"
+            android:textSize="14sp"
+            android:textColor="@color/textPrimary"
+            android:layout_margin="8dp"/>
+    </LinearLayout>
+
+</LinearLayout>
