@@ -6,5 +6,14 @@
     <color name="teal_200">#FF03DAC5</color>
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
-    <color name="white">#FFFFFFFF</color>
+    <color name="primaryColor">#4CAF50</color>
+    <color name="primaryVariant">#2E7D32</color>
+    <color name="accentColor">#FF7043</color>
+    <color name="bgLight">#F6F7FB</color>
+    <color name="surface">#FFFFFF</color>
+    <color name="textPrimary">#212121</color>
+    <color name="textSecondary">#757575</color>
+    <color name="white">#FFFFFF</color>
+    <color name="cardShade">#F2F6F4</color>
+
 </resources>
